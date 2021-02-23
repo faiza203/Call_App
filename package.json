@@ -1,0 +1,19 @@
+{
+  "name": "call_app",
+  "version": "1.0.0",
+  "description": "WEbRCT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faiza203/Call_App.git"
+  },
+  "author": "Faiza Fiaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/faiza203/Call_App/issues"
+  },
+  "homepage": "https://github.com/faiza203/Call_App#readme"
+}
