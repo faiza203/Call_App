@@ -17,7 +17,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/:room", (req, res) => {
-  res.redirect("room", { roomId: req.params.room });
+  res.render("room", { roomId: req.params.room });
 });
 
 server.listen(port);
