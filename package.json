@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/faiza203/Call_App/issues"
   },
-  "homepage": "https://github.com/faiza203/Call_App#readme"
+  "homepage": "https://github.com/faiza203/Call_App#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
 }
