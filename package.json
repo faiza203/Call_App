@@ -18,6 +18,7 @@
   "homepage": "https://github.com/faiza203/Call_App#readme",
   "dependencies": {
     "ejs": "^3.1.6",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "socket.io": "^3.1.1"
   }
 }
