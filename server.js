@@ -12,7 +12,6 @@ app.set("view engine", "ejs");
 app.use(express.static("Public"));
 
 app.get("/", (req, res) => {
-  console.log(roomId);
   res.redirect(`/${roomId}`);
 });
 
@@ -22,7 +21,8 @@ app.get("/:room", (req, res) => {
 
 io.on("connection", (socket) => {
   socket.on("join-room", (roomId, userId) => {
-    console.log(roomId, userId);
+    socket.join(roomId);
+    socket.to(roomId).broadcast.emit("user-connected", userId);
   });
 });
 
