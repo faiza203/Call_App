@@ -4,7 +4,7 @@
   "description": "WEbRCT",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "devStart": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,6 @@
   "dependencies": {
     "ejs": "^3.1.6",
     "express": "^4.17.1",
-    "socket.io": "^3.1.1",
-    "uuid": "^8.3.2"
+    "socket.io": "^3.1.1"
   }
 }
